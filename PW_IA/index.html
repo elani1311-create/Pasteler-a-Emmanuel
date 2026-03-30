@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Pastelería Emmanuel</title>
 
 <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -10,13 +12,13 @@
 <link href="css/aos.css" rel="stylesheet">
 </head>
 
-<body class="pagina-productos">
+<body>
 
 <!-- NAVBAR -->
 <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
     <div class="container">
 
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="Index.html">
             <img src="Img_PWIA/logo.png" class="logo">
         </a>
 
@@ -28,7 +30,7 @@
             <ul class="navbar-nav ms-auto">
 
             <li class="nav-item">
-            <a class="nav-link text-white" href="index.html">Inicio</a>
+            <a class="nav-link active text-white" href="Index.html">Inicio</a>
             </li>
 
             <!-- PRODUCTOS DESPEGABLE-->
@@ -40,65 +42,84 @@
             <li><a class="dropdown-item" href="Productos.html#Postres">Postres individuales</a></li>
             <li><a class="dropdown-item" href="Productos.html#Complementos">Complementos</a></li>
             </ul>
-
             </li>
 
             <li class="nav-item">
-            <a class="nav-link active text-white" href="Contacto.html">Contacto</a>
+            <a class="nav-link text-white" href="Contacto.html">Contacto</a>
             </li>
 
             </ul>
         </div>
-
     </div>
 </nav>
 
-<section class="parallax-cont">
-    <div class="contenido-parallax-cont">
-    <h2 class="text-center titulo-seccion">Contáctanos</h2>
-    <p class="sub-seccion text-center">No dude en contactarnos para recibir cualquier información, estaremos complacidos de atenderle.</p>    </div>
-</section>
+<!-- SLIDER -->
+<div class="col-md-12 mb-4">
+    <div id="c1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+             <div class="carousel-item active" data-bs-interval="2000">
+                <video class="w-100" autoplay muted loop>
+                    <source src="Img_PWIA/Slider 1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000"><img src="Img_PWIA/Slider 2.png" class="d-block w-100"></div>
+            <div class="carousel-item" data-bs-interval="3000"><img src="Img_PWIA/Slider 3.png" class="d-block w-100"></div>          
+        </div>
+    </div>
+</div>   
 
-<section class=contenido-cont>
-    <div class="row g-5">
+<!-- SOBRE NOSOTROS -->
+<section class="parallax">
+    <div class="contenido-parallax">
+        <h1>PASTELERÍA EMMANUEL</h1>
+        <p> La Pastelería "Emmanuel" pone a su disposición una variedad de postres elaborados con el máximo cuidado para hacer de tu experiencia única.
+            Nos adaptamos a tus necesidades ya que ofrecemos una variedad en productos reposteros adaptables a cualquier tipo de evento y/o celebración.</p>
+    </div>
+</section> 
 
-        <!-- MAPA -->
-        <div class="col-6">
-            <div class="mapa">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.471095367028!2d-68.20935312567391!3d-16.502297840782816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915ede46e3ec88ff%3A0x48e08127de12b809!2sPlaza%20Nueva%20Marka!5e0!3m2!1ses-419!2sbo!4v1774909914794!5m2!1ses-419!2sbo" 
-                    width="100%" 
-                    height="350" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+<!---PRODUCTOS-->
+<section class="contenido">
+    <section class="productos-container text-center">
+        <div class="row">
+            <div class="col-12 nuestro-col">
+                <h2 class="mb-5" data-aos="fade-up">NUESTROS PRODUCTOS</h2>
             </div>
         </div>
 
-        <!-- FORMULARIO -->
-        <div class="col-6 d-flex align-items-center">
-            <form class="w-100">
-                <div class="mb-4">
-                    <input type="text" class="form-control" placeholder="Nombre">
-                </div>
 
-                <div class="mb-4">
-                    <input type="email" class="form-control" placeholder="Correo">
+        <div class="row g-4 producto-row">
+            <div class="col-md-4 mb-4" data-aos="zoom-in">
+                <div class="card producto-card bg-transparent align-items-center">
+                    <a href="Productos.html#Tortas" class="tarj">
+                        <img src="Img_PWIA/photo-1578985545062-69928b1d9587.jfif" class="producto_img" alt="prodinic">
+                        <h5>Tortas</h5>
+                        <p>Deliciosa y suave</p>
+                    </a>
                 </div>
+            </div>
 
-                <div class="mb-4">
-                    <textarea class="form-control" rows="4" placeholder="Mensaje"></textarea>
+            <div class="col-md-4 mb-4" data-aos="zoom-in">
+                <div class="card producto-card bg-transparent align-items-center">
+                    <a href="Productos.html#Postres" class="tarj">
+                        <img src="Img_PWIA/photo-1488477181946-6428a0291777.jfif" class="producto_img" alt="prodinic">
+                        <h5>Postres individuales</h5>
+                        <p>Pequeños y encantadores</p>
+                    </a>
                 </div>
+            </div>
 
-                <button class="btn btn-personalizado w-100">Enviar</button>
-            </form>
+            <div class="col-md-4 mb-4" data-aos="zoom-in">
+                <div class="card producto-card bg-transparent align-items-center">
+                    <a href="Productos.html#Complementos" class="tarj">
+                        <img src="Img_PWIA/brazo-jitano1--300x300.jpg" class="producto_img" alt="prodinic">
+                        <h5>Complementos</h5>
+                        <p>Pequeños detalles, grandes sabores</p>
+                    </a>
+                </div>
+            </div>
         </div>
-
-    </div>
+    </section>
 </section>
-
 
 <!----INFORMACIÓN EMMANUEL-->
 <div class="container-fluid bg-cafe">
@@ -129,7 +150,6 @@
 
     </div>
 </div>
-
 
 <!-- FOOTER -->
 <footer class="footer-bg text-white pt-5">
@@ -192,8 +212,9 @@
 
 <!-- WHATSAPP -->
 <a href="https://wa.me/+59167097369" class="whatsapp">
-<i class="bi bi-whatsapp"></i>
+    <i class="bi bi-whatsapp"></i>
 </a>
+
 
 <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
