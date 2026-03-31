@@ -499,20 +499,20 @@ form button:hover {
     }
     .contenido-prod{
         justify-content: center;
-        padding-left: 20px !important;
-        padding-right: 20px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
         padding-bottom: 40px !important;
         text-align: center;
     }
     .parallax-cont{
         height: 470px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
     .contenido-cont{
         justify-content: center;
-        padding-left: 80px !important;
-        padding-right: 80px !important;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
         text-align: center;
     }
     .parallax-detal{
@@ -522,12 +522,13 @@ form button:hover {
     }
     .contenido-detal{
         justify-content: center;
-        padding-left: 70px !important;
-        padding-right: 70px !important;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
         text-align: center;
     }
-    #whatsapp {
-        width: 100%;
+    #imagen{
+        max-width: 400px !important;
+        max-height: 400px !important;
     }
 }
 @media (min-width: 768px) {

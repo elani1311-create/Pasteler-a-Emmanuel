@@ -1,5 +1,6 @@
 let lastScroll = 0;
 const navbar = document.getElementById("navbar");
+const menuElement = document.getElementById("menu");
 
 window.addEventListener("scroll", function () {
     let currentScroll = window.scrollY;
@@ -19,11 +20,19 @@ window.addEventListener("scroll", function () {
     lastScroll = currentScroll;
 });
 
-
 document.querySelectorAll('.dropdown-toggle').forEach(function (el) {
     el.addEventListener('click', function (e) {
         if (this.classList.contains('show')) {
             window.location = this.getAttribute('href');
+        }
+    });
+});
+
+document.querySelectorAll('.dropdown-item').forEach(function (link) {
+    link.addEventListener('click', function () {
+        const bsCollapse = bootstrap.Collapse.getInstance(menuElement);
+        if (bsCollapse) {
+            bsCollapse.hide();
         }
     });
 });
