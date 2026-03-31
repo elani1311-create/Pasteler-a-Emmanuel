@@ -89,42 +89,42 @@ if(document.getElementById('titulo')){
     },
     rollo: {
       titulo: "Rollo de Queso",
-      precio: "Bs. 4",
+      precio: "Bs. 5",
       descripcion: "Una rebanada de pan con un relleno de queso rallado.",
       porciones: "1 porción",
       imagen: "img_PWIA/7.png"
     },
     vaso: {
       titulo: "Pastel en Vaso",
-      precio: "Bs. 3",
+      precio: "Bs. 5",
       descripcion: "Postre en vaso mediano con gelatina, bizcocho, crema chantilly y chispas dulces.",
       porciones: "1 porción",
       imagen: "img_PWIA/8.png"
     },
     tartaleta: {
       titulo: "Tartaleta de Crema",
-      precio: "Bs. 1",
+      precio: "Bs. 2",
       descripcion: "Tartaleta que no empalaga, es muy fresca y liviana, rellena de crema pastelera de diferentes sabores.",
       porciones: "1 porción",
       imagen: "img_PWIA/9.png"
     },
     cupcake: {
       titulo: "Cupcake",
-      precio: "Bs. 2,50",
+      precio: "Bs. 4",
       descripcion: "Pieza esponjosa de repostería, de sabor dulce a chocolate, relleno con manjar de fresa y crema pastelera de chocolate con chispas te chocolate y trozos de galleta oreo.",
       porciones: "1 porción",
       imagen: "img_PWIA/10.png"
     },
     brownie: {
       titulo: "Brownie",
-      precio: "Bs. 2",
+      precio: "Bs. 6",
       descripcion: "Bizcocho de chocolate pequeño, de color marrón oscuro, cubierto con jarabe espeso de chocolate y crema pastelera.",
       porciones: "1 porción",
       imagen: "img_PWIA/11.png"
     },
     brazo: {
       titulo: "Brazo Gitano con Dulce de Leche",
-      precio: "Bs. 4",
+      precio: "Bs. 6",
       descripcion: "Postre en forma de cilindro, con  relleno de dulce de leche y decorado con azúcar impalpable.",
       porciones: "1 porción",
       imagen: "img_PWIA/12.png"
@@ -145,7 +145,7 @@ if(document.getElementById('titulo')){
     },
     mini: {
       titulo: "Mini Pastel",
-      precio: "Bs. 1",
+      precio: "Bs. 5",
       descripcion: "Postre mediano en forma cuadra, bañado  en 3 leches con majar en el fondo, cubierto con merengue, chispas de chocolate y jalea roja.",
       porciones: "1 porción",
       imagen: "img_PWIA/15.png"
